@@ -1,25 +1,29 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
   <div>
- 
+    <h1>Lista de Empleos</h1>
+    <div class="row">
+      <div class="col-md-4" v-for="(empleo, index) in empleos" :key="index">
+        <Card :empleo="empleo" />
+      </div>
+    </div>
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
+<script>
+import Card from './components/Card.vue';  
+import Empresas from './data/Empresas.json'; 
+
+export default {
+  components: {
+    Card
+  },
+  data() {
+    return {
+      empleos: Empresas.empleos 
+    };
+  }
+};
+</script>
+
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
 </style>
