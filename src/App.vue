@@ -1,14 +1,12 @@
 <template>
-  <div>
+  <div >
     
     <SearchBar/>
-    <NavBar/>
+    <NavBar />
     <SideBar/>
-    <!-- 
-    
-  -->
+   
     <div class="row">
-      <div class="col-md-4" v-for="(empleo, index) in empleos" :key="index">
+      <div class="col-md-12" v-for="(empleo, index) in empleos" :key="index">
         <Card :empleo="empleo" />
       </div>
     </div>
