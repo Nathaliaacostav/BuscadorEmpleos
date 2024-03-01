@@ -11,7 +11,7 @@ const count = ref(0);
 </script>
 
 <template>
-  <div >
+  <div class="container-fluid w-100">
     <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
