@@ -5,7 +5,7 @@
         "habilidades_requeridas": ["JavaScript", "React", "Node.js"],
         "nombre_empresa": "PeakU Inc.",
         "modalidad_trabajo": "Remoto",
-        "salario": "$4,000,000 - $6,000,000",
+        "salario": " $6,000,000",
         "vacantes": 2,
         "hora_publicacion": "2024-02-26T09:00:00Z",
         "imagen": "https://res.cloudinary.com/dhhyc88td/image/upload/v1709063911/peakU_ypgkou.png"
@@ -15,7 +15,7 @@
         "habilidades_requeridas": ["Python", "SQL", "Big Data"],
         "nombre_empresa": "Confidencial",
         "modalidad_trabajo": "Híbrido",
-        "salario": "$5,500,000 - $7,500,000",
+        "salario": " $7,500,000",
         "vacantes": 1,
         "hora_publicacion": "2024-02-25T13:30:00Z",
         "imagen": "https://res.cloudinary.com/dhhyc88td/image/upload/v1709063912/company_2_tlbqn8.svg"
@@ -25,7 +25,7 @@
         "habilidades_requeridas": ["Diseño de interfaces", "Prototipado", "Adobe XD"],
         "nombre_empresa": "DesignTech Inc.",
         "modalidad_trabajo": "Medellín",
-        "salario": "$3,500,000 - $5,000,000",
+        "salario": " $5,000,000",
         "vacantes": 3,
         "hora_publicacion": "2024-02-24T16:45:00Z",
         "imagen": "https://res.cloudinary.com/dhhyc88td/image/upload/v1709063912/intexus_nkhl1w.jpg"
@@ -35,7 +35,7 @@
         "habilidades_requeridas": ["Linux", "Redes", "Administración de servidores"],
         "nombre_empresa": "Genuine Digital School",
         "modalidad_trabajo": "Bogotá",
-        "salario": "$4,800,000 - $6,500,000",
+        "salario": " $6,500,000",
         "vacantes": 2,
         "hora_publicacion": "2024-02-23T10:15:00Z",
         "imagen": "https://res.cloudinary.com/dhhyc88td/image/upload/v1709063912/company2_o6kyp1.jpg"
@@ -45,7 +45,7 @@
         "habilidades_requeridas": ["Ciberseguridad", "Análisis de riesgos", "Firewalls"],
         "nombre_empresa": "Confidencial",
         "modalidad_trabajo": "Remoto",
-        "salario": "$6,000,000 - $8,000,000",
+        "salario": " $8,000,000",
         "vacantes": 1,
         "hora_publicacion": "2024-02-22T11:20:00Z",
         "imagen": "https://res.cloudinary.com/dhhyc88td/image/upload/v1709063912/company_2_tlbqn8.svg"
@@ -55,7 +55,7 @@
         "habilidades_requeridas": ["Java", "Spring Boot", "Desarrollo ágil"],
         "nombre_empresa": "Confidencial",
         "modalidad_trabajo": "Híbrido",
-        "salario": "$5,000,000 - $7,000,000",
+        "salario": " $7,000,000",
         "vacantes": 2,
         "hora_publicacion": "2024-02-21T14:00:00Z",
         "imagen": "https://res.cloudinary.com/dhhyc88td/image/upload/v1709063912/company_2_tlbqn8.svg"
@@ -65,7 +65,7 @@
         "habilidades_requeridas": ["JavaScript", "React", "Node.js"],
         "nombre_empresa": "PeakU Inc.",
         "modalidad_trabajo": "Remoto",
-        "salario": "$4,000,000 - $6,000,000",
+        "salario": "$6,000,000",
         "vacantes": 2,
         "hora_publicacion": "2024-02-26T09:00:00Z",
         "imagen": "https://res.cloudinary.com/dhhyc88td/image/upload/v1709063911/peakU_ypgkou.png"
@@ -75,7 +75,7 @@
         "habilidades_requeridas": ["Python", "SQL", "Big Data"],
         "nombre_empresa": "Confidencial",
         "modalidad_trabajo": "Híbrido",
-        "salario": "$5,500,000 - $7,500,000",
+        "salario": "$7,500,000",
         "vacantes": 1,
         "hora_publicacion": "2024-02-25T13:30:00Z",
         "imagen": "https://res.cloudinary.com/dhhyc88td/image/upload/v1709063912/company_2_tlbqn8.svg"
@@ -85,7 +85,7 @@
         "habilidades_requeridas": ["Diseño de interfaces", "Prototipado", "Adobe XD"],
         "nombre_empresa": "DesignTech Inc.",
         "modalidad_trabajo": "Medellín",
-        "salario": "$3,500,000 - $5,000,000",
+        "salario": "$5,000,000",
         "vacantes": 3,
         "hora_publicacion": "2024-02-24T16:45:00Z",
         "imagen": "https://res.cloudinary.com/dhhyc88td/image/upload/v1709063912/intexus_nkhl1w.jpg"
