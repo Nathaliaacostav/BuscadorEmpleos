@@ -160,4 +160,7 @@ a {
 a:hover {
   color: black;
 }
+nav{
+    background-color: rgb(57, 138, 237);
+}
 </style>

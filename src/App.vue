@@ -3,12 +3,12 @@
     <NavBar class="p-0" />
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-1">
-          <SideBar class="h-100 sideBar " />
+        <div class="col-1 px-0 mx-0 ">
+          <SideBar class="h-100 sideBar" />
         </div>
         <div class="col-md-11 ps-0" style="position: relative;">
           <div class="row sticky-top">
-            <div class="col-md-12 p-0">
+            <div class="col-12 px-0">
               <SearchBar class="" />
             </div>
           </div>
