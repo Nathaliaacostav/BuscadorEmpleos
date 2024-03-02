@@ -13,11 +13,6 @@ const count = ref(0);
     <img  class="card-img-top" alt="..." />
     <div class="card-body">
       <h5 class="card-title">ejmplo</h5>
-      <p class="card-text">ejmplo</p>
-      <p class="card-text">ejmplo</p>
-      <p class="card-text">ejmplo</p>
-      <p class="card-text">ejmplo</p>
-      <p class="card-text">ejmplo</p>
     </div>
   </div>
 </template>

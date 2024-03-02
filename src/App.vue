@@ -1,14 +1,14 @@
 <template>
   <div>
-    <NavBar />
+    <NavBar class="p-0" />
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-1">
-          <SideBar />
+          <SideBar class="h-100 sideBar " />
         </div>
-        <div class="col-md-11 ps-0">
-          <div class="row">
-            <div class="col-md-12 ps-0 sticky-search-bar m-0">
+        <div class="col-md-11 ps-0" style="position: relative;">
+          <div class="row sticky-top">
+            <div class="col-md-12 p-0">
               <SearchBar class="" />
             </div>
           </div>
@@ -55,11 +55,7 @@ export default {
   opacity: 1;
 }
 
-.sticky-search-bar {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background-color: white;
+.sideBar{
+position: fixed;
 }
 </style>

@@ -1,56 +1,158 @@
-<script setup>
-import { ref } from "vue";
-
-defineProps({
-  msg: String,
-});
-
-const count = ref(0);
-</script>
+<script setup></script>
 
 <template>
-    <div>
-<nav class="navbar navbar-expand-lg bg-light ">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar scroll</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarScroll">
-      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Link
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+  <div>
+    <nav class="navbar navbar-expand-lg ps-5">
+      <div class="container-fluid ">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ms-2 p-2" id="navbarScroll">
+          <form class="d-flex col-lg-8   " role="search">
+           
+              <div class="row col-9 bg-light p-1 rounded searcher ">
+                <button class=" col-1 btn btn-sm-outline-secondary" type="submit">
+                  <i class="bi bi-search"></i>
+                </button>
+                <input
+                  class="bg-light col border-0 fs-5"
+                  type="search"
+                  placeholder="Buscar por cargo, salario ubicación o empresa"
+                  aria-label="Search"
+                />
+
+             
+              </div>
+          
+          </form>
+          <ul
+            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll col"
+            style="--bs-scroll-height: 100px"
+          >
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Area
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Cargo
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Salario
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Ubicacion
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
           </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Link</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
+        </div>
+      </div>
+    </nav>
   </div>
-</nav>
-</div>
 </template>
 
-<style>
-.read-the-docs {
-  color: #888;
+<style scoped>
+.card-style {
+  background-color: rgb(243, 245, 247);
+  opacity: 1;
+}
+button {
+  background-color: aliceblue;
+}
+.buttonClose {
+  border-left: none;
+}
+.buttonSearch {
+  border-right: none;
+}
+li {
+  border-radius: 30px;
+  border: 1px solid white;
+  margin-right: .5rem;
+  font-size: .9em;
+
+}
+.searcher:focus{
+    border-color: black;
+}
+li:hover {
+  background-color: white;
+}
+a {
+  color: aliceblue;
+  padding: 5px;
+
+}
+a:hover {
+  color: black;
 }
 </style>
