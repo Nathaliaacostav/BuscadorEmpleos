@@ -5,7 +5,7 @@
     <NavBar />
     <SideBar/>
    
-    <div class="row">
+    <div class="row card-style">
       <div class="col-md-12" v-for="(empleo, index) in empleos" :key="index">
         <Card :empleo="empleo" />
       </div>
@@ -38,4 +38,8 @@ export default {
 </script>
 
 <style scoped>
+.card-style{
+  background-color: rgb(247, 249, 250);
+
+}
 </style>
