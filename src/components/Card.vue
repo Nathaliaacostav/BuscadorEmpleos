@@ -10,7 +10,7 @@
       />
       <div class="col-10 ">
         <div class="row d-flex align-items-center justify-content-start  ">
-          <h5 class="col-md-4 fs-3 text-start fw-bolder ">{{ empleo.cargo }}</h5>
+          <h5 class="col-4 fs-3 text-start fw-bolder ">{{ empleo.cargo }}</h5>
           <div class="col-md-5 d-flex justify-content-start">
             <ul class="list-inline d-flex justify-content-start ">
               <li
