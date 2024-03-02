@@ -6,7 +6,7 @@
     <SideBar/>
    
     <div class="row card-style">
-      <div class="col-md-12" v-for="(empleo, index) in empleos" :key="index">
+      <div class="col-md-12 ps-3" v-for="(empleo, index) in empleos" :key="index">
         <Card :empleo="empleo" />
       </div>
     </div>
@@ -39,7 +39,8 @@ export default {
 
 <style scoped>
 .card-style{
-  background-color: rgb(247, 249, 250);
+  background-color: rgb(236, 239, 241);
+  opacity: 1;
 
 }
 </style>
