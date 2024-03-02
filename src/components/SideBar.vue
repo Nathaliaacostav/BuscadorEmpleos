@@ -1,14 +1,28 @@
-
-
-
 <template>
-  <div class="">
-    <ul class="nav mt-2 flex-column">
-      <li class="nav-item position-relative">
-        <a href="/es/empleos" aria-current="page" class="nav-link active" target="_self">
-          <svg viewBox="0 0 16 16" width="1em" height="1em" focusable="false" role="img" aria-label="briefcase" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi-briefcase mx-2 b-icon bi">
+  <div class="header">
+    <ul class="nav mt-3 flex-column justify-items-center">
+      <li class="nav-item">
+        <a
+          href="/es/empleos"
+          aria-current="page"
+          class="nav-link active"
+          target="_self"
+        >
+          <svg
+            viewBox="0 0 16 16"
+            width="1em"
+            height="1em"
+            focusable="false"
+            role="img"
+            aria-label="briefcase"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            class="bi-briefcase mx-2 b-icon bi"
+          >
             <g>
-              <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5zm1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0zM1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5z"></path>
+              <path
+                d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5zm1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0zM1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5z"
+              ></path>
             </g>
           </svg>
           <span>Empleos</span>
@@ -16,10 +30,24 @@
       </li>
       <li class="nav-item position-relative">
         <a href="/es/postulaciones" class="nav-link" target="_self">
-          <svg viewBox="0 0 16 16" width="1em" height="1em" focusable="false" role="img" aria-label="file earmark check" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi-file-earmark-check mx-2 b-icon bi">
+          <svg
+            viewBox="0 0 16 16"
+            width="1em"
+            height="1em"
+            focusable="false"
+            role="img"
+            aria-label="file earmark check"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            class="bi-file-earmark-check mx-2 b-icon bi"
+          >
             <g>
-              <path d="M10.854 7.854a.5.5 0 0 0-.708-.708L7.5 9.793 6.354 8.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"></path>
-              <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"></path>
+              <path
+                d="M10.854 7.854a.5.5 0 0 0-.708-.708L7.5 9.793 6.354 8.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"
+              ></path>
+              <path
+                d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"
+              ></path>
             </g>
           </svg>
           <span>Postulaciones</span>
@@ -132,12 +160,9 @@
             </g>
           </svg>
           <span data-v-869d4650="">Premios</span>
-
-         </a
-
-        >
+        </a>
       </li>
-      <li data-v-869d4650="" class="nav-item position-relative">
+      <li data-v-869d4650="" class="nav-item ">
         <a data-v-869d4650="" href="/es/cv" class="nav-link" target="_self"
           ><svg
             data-v-869d4650=""
@@ -161,28 +186,25 @@
           <span data-v-869d4650="">Tu CV</span>
         </a>
       </li>
-
     </ul>
   </div>
 </template>
 
 <style scoped>
-.nav-link {
-  color: black !important; /* Cambia el color del texto a negro */
+.header {
+  font-size: 0.8em;
+
 }
 
 li{
   display: flex;
   justify-content: center;
+  padding-left:2px;
+  margin:0;
+  margin-top: 2rem;
 }
-
-.nav-link svg {
-  display: block;
-  margin: auto;
-}
-
-.nav-link span {
-  text-align: center;
+svg{display: none;}
+.nav-link {
+  color: black !important;
 }
 </style>
-
