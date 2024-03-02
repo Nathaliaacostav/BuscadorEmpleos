@@ -131,7 +131,9 @@
             </g>
           </svg>
           <span data-v-869d4650="">Premios</span>
+
          </a
+
         >
       </li>
       <li data-v-869d4650="" class="nav-item position-relative">
@@ -172,6 +174,7 @@ li{
   display: flex;
   justify-content: center;
 }
+
 .nav-link svg {
   display: block;
   margin: auto;
