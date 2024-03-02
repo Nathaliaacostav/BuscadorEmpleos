@@ -6,12 +6,18 @@
         <div class="col-md-1">
           <SideBar />
         </div>
-        <div class="col-md-11">
-          <div class="mt-3 sticky-search-bar">
-            <SearchBar />
+        <div class="col-md-11 ps-0">
+          <div class="row">
+            <div class="col-md-12 ps-0 sticky-search-bar m-0">
+              <SearchBar class="" />
+            </div>
           </div>
           <div class="row card-style">
-            <div class="col-md-12 ps-3" v-for="(empleo, index) in empleos" :key="index">
+            <div
+              class="col-md-12 ps-3"
+              v-for="(empleo, index) in empleos"
+              :key="index"
+            >
               <Card :empleo="empleo" />
             </div>
           </div>
@@ -45,7 +51,7 @@ export default {
 
 <style scoped>
 .card-style {
-  background-color: rgb(236, 239, 241);
+  background-color: rgb(243, 245, 247);
   opacity: 1;
 }
 
@@ -53,7 +59,7 @@ export default {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: 1000; 
-  background-color: white; 
+  z-index: 1000;
+  background-color: white;
 }
 </style>
