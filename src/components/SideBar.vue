@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <ul class="nav mt-3 flex-column justify-items-center">
+    <ul class="nav mt-3 flex-column justify-items-center ">
       <li class="nav-item">
         <a
           href="/es/empleos"
@@ -199,8 +199,7 @@
 li{
   display: flex;
   justify-content: center;
-  padding-left:2px;
-  margin:0;
+
   margin-top: 2rem;
 }
 svg{display: none;}

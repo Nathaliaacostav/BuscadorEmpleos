@@ -6,7 +6,7 @@
       <div class="container-fluid">
         <img
           src="../../public/peackuImg.png"
-          class="col-1 float-start mx-3"
+          class="col-1 float-start mx-2"
           style="max-height: 75px; max-width: 75px"
           alt="..."
         />
