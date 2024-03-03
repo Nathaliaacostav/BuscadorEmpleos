@@ -202,8 +202,8 @@ li{
 
   margin-top: 2rem;
 }
-svg{display: none;
-}
+/* svg{display: none;
+} */
 
 .nav-link {
   color: black !important;
