@@ -16,7 +16,7 @@
               <li
                 v-for="(habilidad, index) in empleo.habilidades_requeridas"
                 :key="index"
-                class=" list-inline-item bordered-li px-2  "
+                class="list-inline-item bordered-li px-2"
               >
                 {{ habilidad }}
               </li>
