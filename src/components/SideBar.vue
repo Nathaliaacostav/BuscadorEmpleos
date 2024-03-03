@@ -5,13 +5,15 @@
   <div class="">
     <ul class="nav mt-2 flex-column">
       <li class="nav-item position-relative">
-        <a href="/es/empleos" aria-current="page" class="nav-link active" target="_self">
-          <svg viewBox="0 0 16 16" width="1em" height="1em" focusable="false" role="img" aria-label="briefcase" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi-briefcase mx-2 b-icon bi">
-            <g>
-              <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5zm1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0zM1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5z"></path>
-            </g>
-          </svg>
-          <span>Empleos</span>
+        <a href="/es/empleos" aria-current="page" class="nav-link active d-flex flex-column justify-items-center" target="_self">
+          <div class="nav-item-content">
+            <svg viewBox="0 0 16 16" width="1em" height="1em" focusable="false" role="img" aria-label="briefcase" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi-briefcase mx-2 b-icon bi">
+              <g>
+                <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5zm1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0zM1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5z"></path>
+              </g>
+            </svg>
+            <span>Empleos</span>
+          </div>
         </a>
       </li>
       <li class="nav-item position-relative">
@@ -22,7 +24,7 @@
               <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"></path>
             </g>
           </svg>
-          <span>Postulaciones</span>
+          <span class="sidebarOpc">Postulaciones</span>
         </a>
       </li>
       <li data-v-869d4650="" class="nav-item position-relative">
@@ -48,7 +50,7 @@
               ></path>
             </g>
           </svg>
-          <span data-v-869d4650="">CodeX</span>
+          <span class="sidebarOpc" data-v-869d4650="">CodeX</span>
           <!----></a
         >
       </li>
@@ -79,7 +81,7 @@
               ></path>
             </g>
           </svg>
-          <span data-v-869d4650="">Preguntas</span>
+          <span class="sidebarOpc" data-v-869d4650="">Preguntas</span>
           <!----></a
         >
       </li>
@@ -107,7 +109,7 @@
               ></path>
             </g>
           </svg>
-          <span data-v-869d4650="">Bootcamp</span>
+          <span class="sidebarOpc" data-v-869d4650="">Bootcamp</span>
           <!----></a
         >
       </li>
@@ -131,7 +133,7 @@
               ></path>
             </g>
           </svg>
-          <span data-v-869d4650="">Premios</span>
+          <span class="sidebarOpc" data-v-869d4650="">Premios</span>
          </a
         >
       </li>
@@ -156,7 +158,7 @@
               ></path>
             </g>
           </svg>
-          <span data-v-869d4650="">Tu CV</span>
+          <span class="sidebarOpc" data-v-869d4650="">Tu CV</span>
         </a>
       </li>
 
@@ -166,20 +168,49 @@
 
 <style scoped>
 .nav-link {
-  color: black !important; /* Cambia el color del texto a negro */
+  color: black !important;
+  font-size: 14px;
+  margin: 5px;
+  padding: 8px 1.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 li{
   display: flex;
   justify-content: center;
 }
+
 .nav-link svg {
   display: block;
   margin: auto;
+  width: 30px;
+  height: 30px; 
+  margin-bottom: 5px;
 }
 
 .nav-link span {
+  flex: 1;
   text-align: center;
+  
+}
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+
+.nav-item-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.nav-item-content svg {
+  margin-bottom: 5px
 }
 </style>
 
