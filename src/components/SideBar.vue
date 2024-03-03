@@ -164,7 +164,8 @@
       </li>
       <li data-v-869d4650="" class="nav-item ">
         <a data-v-869d4650="" href="/es/cv" class="nav-link" target="_self"
-          ><svg
+          >
+          <svg
             data-v-869d4650=""
             viewBox="0 0 16 16"
             width="1em"
@@ -202,8 +203,8 @@ li{
 
   margin-top: 2rem;
 }
-/* svg{display: none;
-} */
+svg{display: none;
+}
 
 .nav-link {
   color: black !important;
